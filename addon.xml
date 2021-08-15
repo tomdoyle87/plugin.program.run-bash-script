@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.run-bash-script" name="Run Bash script from a program plugin" version="0.0.1" provider-name="tomdoyle97">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language/>
+        <platform>linux</platform>
+        <disclaimer>For OSMC/Kodi</disclaimer>
+        <summary lang="en">Runs a bash script.</summary>
+        <description lang="en">Simple plugin that allows running a bash script, from the Programs menu.</description>
+        <website>https://github.com/tomdoyle87/plugin.program.run-bash-script</website>
+        <email>tom@email-doyle.co.uk</email>
+    </extension>
+</addon>

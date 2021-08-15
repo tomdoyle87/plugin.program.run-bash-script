@@ -14,5 +14,8 @@
         <description lang="en">Simple plugin that allows running a bash script, from the Programs menu.</description>
         <website>https://github.com/tomdoyle87/plugin.program.run-bash-script</website>
         <email>tom@email-doyle.co.uk</email>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>

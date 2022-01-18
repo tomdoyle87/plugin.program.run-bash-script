@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.run-bash-script" name="Run Bash script from a program plugin" version="0.0.1" provider-name="tomdoyle97">
+<addon id="plugin.program.run-bash-script" name="Run Bash script from a program plugin" version="0.0.2" provider-name="tomdoyle97">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -7,15 +7,21 @@
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <language/>
+        <summary lang="en_gb">Runs a bash script.</summary>
+        <description lang="en_gb">Simple plugin that allows running a bash script, within kodi from the Programs menu.</description>
+        <disclaimer lang="en_gb">For Kodi</disclaimer>
+        <language>en</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
         <platform>linux</platform>
-        <disclaimer>For OSMC/Kodi</disclaimer>
-        <summary lang="en">Runs a bash script.</summary>
-        <description lang="en">Simple plugin that allows running a bash script, from the Programs menu.</description>
-        <website>https://github.com/tomdoyle87/plugin.program.run-bash-script</website>
+        <license>GPL-2.0-or-later</license>
         <email>tom@email-doyle.co.uk</email>
+        <source>https://github.com/tomdoyle87/osmc_nfs-server_plugin</source>
         <assets>
-            <icon>icon.png</icon>
+                <icon>resources/media/icon.png</icon>
+                <fanart></fanart>
+                <banner></banner> <!-- optional -->
+                <clearlogo></clearlogo> <!-- optional  -->
+                <screenshot></screenshot> <!-- optional, max 10  -->
         </assets>
     </extension>
 </addon>
+~                     

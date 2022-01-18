@@ -21,4 +21,3 @@ __version__ = "0.0.2"
 subprocess.Popen(["/home/osmc/bin/getstreamlist", "R"])
 time.sleep(5)
 dialog.ok("Streams updated")
-~                             
